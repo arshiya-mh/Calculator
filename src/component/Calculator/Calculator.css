@@ -1,0 +1,39 @@
+.container{
+    width: 400px;
+}
+.screen{
+    height: 100px;
+    line-height: 100px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color:#e4e4e4;
+    text-align: right;
+    background-color: #044343;
+    overflow-x: auto;
+
+}
+.btnpanel{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    width: 100px;
+    height: 80px;
+    border: none;
+    outline: none;
+    background-color: #045757;
+    color: #e4e4e4;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid #044343;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.color{
+    background-color: #54cbdb;
+    color: #044343;
+}
+.twop{
+    width: 200px;
+}
